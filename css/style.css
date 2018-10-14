@@ -1,0 +1,245 @@
+body {
+  padding-top: 33px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  font-size: 2.4vw;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+table {
+  padding: 100px;
+  padding-left: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border-color: black
+}
+
+thead {
+  background-color: black;
+  color: white;
+  border-bottom: 0;
+}
+
+th, tr, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-left: 0;
+  border-right: 0;
+  border-left-color: black;
+}
+
+th:first-child {
+  padding-left: 20px;
+  padding-right: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#title-logo {
+  width: 70%;
+  z-index: 0;
+}
+
+#winrate-image {
+  margin-left: unset;
+  margin-right: unset;
+  padding-left: 2px;
+  padding-right: 49px;
+  max-width: 950px;
+}
+
+#gameplay-image-desktop {
+  display: inline;
+}
+
+#learning-curve-last {
+  display: inline;
+  padding-bottom: 7px;
+}
+
+#pie-last {
+  padding-bottom: 5px;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.code-wrapper {
+  border: 0px solid #cfcfcf !important;
+  padding: 0;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+
+.pull-right {
+  width: 30vw;
+  min-width: 350px;
+  max-width: 450px;
+  height: auto;
+  margin-top: 5px;
+  margin-right: 1px;
+  margin-left: 1.8vw;
+  margin-bottom: 2vh;
+  border-radius: 4px;
+}
+
+.mobile-gameplay-image {
+  display: none;
+}
+
+.learning-curve-image {
+  display: inline !important;
+  padding-bottom: 0px;
+}
+
+.plot-image {
+  display: block;
+}
+
+.tr-top {
+  border-bottom-color: black;
+  background-color: black;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.output-mini {
+  padding: 11px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.output-star {
+  padding: 11px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.output-winrate {
+  padding: 10px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.output-learning-curves {
+  padding: 13px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.output-pie-charts {
+  padding: 15px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1;
+}
+
+.learning-curve-image-spacing {
+  line-height: 1;
+}
+
+.conclusion {
+  font-size: 20px;
+}
+
+/* Small sized desktop windows */
+
+@media (max-width:991px) {
+
+  h2 {
+    font-size: 2.6vw;
+  }
+
+  #title-logo {
+    width: 80%;
+    z-index: 0;
+  }
+
+}
+
+/* Phones */
+
+@media (max-width:800px) {
+
+  body {
+    padding-bottom: 0px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #title-logo {
+    width: 90%;
+    z-index: 0;
+  }
+
+  #gameplay-image-desktop {
+    display: none;
+  }
+
+  #winrate-image {
+    padding-right: 5px;
+    width: 93vw;
+    max-width: 950px;
+  }
+
+  .mobile-gameplay-image {
+    width: 90vw;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+
+  .plot-image {
+    width: 83vw;
+    max-width: 380px;
+    height: auto;
+    display: block;
+  }
+
+  .learning-curve-image {
+    width: 80vw;
+    height: auto;
+    display: inline;
+  }
+
+}
+
+/* Very large monitors */
+
+@media (min-width:1490px) {
+
+  h2 {
+    font-size: 27pt;
+  }
+
+  #title-logo {
+    width: 1050px;
+    z-index: 0;
+  }
+
+}
